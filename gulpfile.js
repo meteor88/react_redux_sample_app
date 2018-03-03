@@ -5,7 +5,7 @@ var clean = require('gulp-clean');
 var exec = require('child_process').exec;
 
 // 로컬 웹서버 구동 
-gulp.task('serve', function () {
+gulp.task('webserver', ['webpack'], function () {
   return gulp.src('dist')
     .pipe(webserver({
       livereload: true,
@@ -44,3 +44,4 @@ gulp.task('clean-dist', function () {
 
 
 gulp.task('clean', ['clean-dist']);
+gulp.task('serve', ['webserver']);

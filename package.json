@@ -4,9 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "gulp webpack",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,8 +20,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-if": "^2.0.2",
     "gulp-webserver": "^0.9.1",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.5.5"
+    "style-loader": "^0.18.2"
   },
   "dependencies": {
     "immutable": "^3.8.1",
@@ -31,6 +28,5 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
-  },
-  "homepage": "http://meteor88.github.io/react_redux_sample_app/"
+  }
 }

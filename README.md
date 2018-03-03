@@ -3,7 +3,8 @@
 
 ## 설치방법
 1) npm install
-2) gulp webpack
-3) gulp serve
+2) npm i -g gulp-cli webpack-cli
+3) npm i -g webpack@2.2.0
+4) gulp serve
 
 
