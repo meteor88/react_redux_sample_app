@@ -5,6 +5,7 @@ var clean = require('gulp-clean');
 var exec = require('child_process').exec;
 
 // 로컬 웹서버 구동 
+// TEST
 gulp.task('webserver', ['webpack'], function () {
   return gulp.src('dist')
     .pipe(webserver({
