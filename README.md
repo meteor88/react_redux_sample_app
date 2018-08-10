@@ -2,9 +2,9 @@
 > redux 패턴을 적용한 4칙연산 프로그램
 
 ## 설치방법
+> gulp-cli 패키지가 global 에 먼저 설치 되어 있어야 합니다. (npm install -g gulp-cli)
+
 1) npm install
-2) npm i -g gulp-cli webpack-cli
-3) npm i -g webpack@2.2.0
-4) gulp serve
+2) gulp serve
 
 
